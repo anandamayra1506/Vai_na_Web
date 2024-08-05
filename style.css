@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  background-color: palevioletred;
+  border: solid blueviolet;
+  padding: 20px;
+  margin: 10px;
+  /* margin: 20px 30px 20px 50px;
+           Top, right, bottom, left */
+} 
+.caixa1 {
+  background-color: blue;
+  border: solid; /*borda*/
+  width: 200px; /*largura*/
+  height: 200px; /*altura*/
+}
+
+.caixa2 {
+  background-color: tomato;
+  border: solid;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.desafio {
+  background-color: green;
+  width: 600px;
+  height: 600px;
+}/*# sourceMappingURL=style.css.map */
