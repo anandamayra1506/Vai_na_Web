@@ -1,0 +1,204 @@
+<<<<<<< HEAD
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFEEF3;
+  font-family: "Kodchasan", sans-serif;
+}
+
+/*-----------------------------------------------------*/
+/*MENU*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 10px;
+}
+
+/*LINKS*/
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 70vw;
+}
+
+/*BANNER COM AS MODELOS NO MENU*/
+main .banner {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/*-----------------------------------------------------*/
+/*SEÇÃO COM O NOVO PRODUTO DA LINHA ELSEVE - Glycolic Gloss*/
+.novo-elseve {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.novo-elseve div {
+  width: 40vw;
+}
+
+.novo-elseve div h1 {
+  margin: 20px 0;
+}
+
+/*-----------------------------------------------------*/
+/*PRODUTOS FAVORITOS DA L'OREAL PARIS*/
+.produtos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.produtos .texto {
+  width: 40vw;
+  text-align: start;
+}
+
+.produtos div {
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*IMAGEM DOS 4 PRODUTOS*/
+.produtos div img {
+  height: 15vh;
+  width: auto;
+}
+
+/*-----------------------------------------------------*/
+/*FORMATAÇÃO DO TEXTO*/
+.texto {
+  text-align: center;
+  font-weight: 400;
+}
+
+/*-----------------------------------------------------*/
+/*VERSÃO DESKTOP*/
+@media (max-width: 480px) {
+  /* Header */
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  /* Logo do header */
+  header img {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  /* Menu no header */
+  header ul {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+  }
+  /* Esconde o banner no mobile */
+  main .banner {
+    display: none;
+  }
+  /* Secção do produto Elseve */
+  .novo-elseve {
+    flex-direction: column;
+    padding: 0 5vw;
+    text-align: center;
+  }
+  /* Imagem do produto Elseve no mobile */
+  .novo-elseve img {
+    width: 90vw;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  /* Título e texto da seção Elseve */
+  .novo-elseve div h1 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+  }
+  .novo-elseve div p {
+    width: 100%;
+    font-size: 1.15em;
+  }
+  /* Seção dos produtos favoritos */
+  .produtos {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    padding: 0 5vw;
+  }
+  /* Texto da seção de produtos */
+  .produtos .texto {
+    width: 100%;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+  }
+  /* Itens dos produtos, cada um em linha separada */
+  .produtos div {
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+  }
+  /* Ajuste nas imagens dos produtos */
+  .produtos div img {
+    height: auto;
+    width: 90vw;
+    margin: 0 auto;
+  }
+}
+/*-----------------------------------------------------*//*# sourceMappingURL=style.css.map */
+=======
+* {
+  margin: 0;
+}
+
+h1 {
+  background-color: palevioletred;
+  border: solid blueviolet;
+  padding: 20px;
+  margin: 10px;
+  /* margin: 20px 30px 20px 50px;
+           Top, right, bottom, left */
+} 
+.caixa1 {
+  background-color: blue;
+  border: solid; /*borda*/
+  width: 200px; /*largura*/
+  height: 200px; /*altura*/
+}
+
+.caixa2 {
+  background-color: tomato;
+  border: solid;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+.desafio {
+  background-color: green;
+  width: 600px;
+  height: 600px;
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> cc5f8f19a3043f0bc494506887bfc4822c3b6392
