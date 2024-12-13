@@ -41,7 +41,7 @@ export default function App() {
       {}
       <S.GlobalStyle />
       <S.Main>
-        <S.Img src="src\assets\calculadora.png" alt="Imagem de uma calculadora simples" />
+        <S.Img src="./public/calculadora.png" alt="Imagem de uma calculadora simples" />
         <S.H1>Calculadora</S.H1>
         <S.Input
           type="number"

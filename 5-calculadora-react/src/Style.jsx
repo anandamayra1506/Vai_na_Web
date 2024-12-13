@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 `
 
 export const Main = styled.main`
-  background-image: url('https://files.oaiusercontent.com/file-RDTw2BEEf62DkMJAVDU8WX?se=2024-12-13T00%3A29%3A16Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1d2730e3-f326-4973-b9e7-00f81274e18f.webp&sig=st5b%2B4gpQwwhOCzD81cCpxjH16TlZaBZoFToHGoX5/Q%3D'); 
+  background-image: url('5-calculadora-react\public\calculadora-bg.webp'); 
   background-size: cover; 
   background-repeat: no-repeat;
   display: flex;
